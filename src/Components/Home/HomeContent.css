@@ -1,0 +1,51 @@
+.homeMain {
+    margin-top: 80px;
+    max-width: 1800px;
+    width: 100%;
+    height: auto;
+}
+
+.hero {
+    background-image: url(../../Assets/homeimg.jpg);
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.heroText {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.companyName {
+color: whitesmoke;
+font-size: 70px;
+font-weight: bold;
+}
+
+.companySlogan {
+    color: whitesmoke;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.formBtn {
+    background-color: #09bab5;
+    color: white;
+    border: none;
+    padding: 12px;
+    margin: 12px;
+    font-size: 20px;
+    border-radius: 10px;
+cursor: pointer;
+}
+
+.formBtn:hover {
+    background-color: #007f7a;
+}

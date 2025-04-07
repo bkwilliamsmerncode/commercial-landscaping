@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import './Navbar.css';
 import { LuMenu } from "react-icons/lu";
 import { IoClose } from "react-icons/io5";
+import logo from "../../Assets/logo.png"
 
 
 const Navbar = () => {
@@ -40,8 +41,7 @@ const Navbar = () => {
     <>
       <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
         <div className="logo">
-          <p>Commercial</p>
-          <p>Landscaping</p>
+          <img src={logo} alt="company logo" className='logo' />
         </div>
         <ul className="nav-links">
           {[
