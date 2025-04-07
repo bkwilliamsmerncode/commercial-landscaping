@@ -5,7 +5,9 @@ const ServicesContent = () => {
   return (
   <>
   <div className='xlscreens'>
+    <div className='servicesMain'>
     <h1>Services</h1>
+    </div>
   </div>
   </>
   )

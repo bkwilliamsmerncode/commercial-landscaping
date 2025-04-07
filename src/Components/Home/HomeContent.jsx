@@ -5,7 +5,15 @@ const HomeContent = () => {
   return (
     <>
     <div className='xlscreens'>
-        <h1>HOME</h1>
+      <div className='homeMain'>
+        <div className='hero'>
+<div className="heroText">
+  <div className="companyName">FourFront Landscaping</div>
+  <div className="companySlogan">Landscaping Done Right!</div>
+  <button className='formBtn'>Get A Free Estimate</button>
+</div>
+        </div>
+        </div>
     </div>
     </>
   )
