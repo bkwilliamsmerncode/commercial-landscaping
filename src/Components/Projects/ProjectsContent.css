@@ -1,7 +1,63 @@
-.projectsMain {
-    margin-top: 150px;
+.projects {
+    padding: 60px 20px;
+    background-color: #ffffff;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 80px;
     max-width: 1800px;
     width: 100%;
-    height: 800px;
-    border: solid red 1px;
-}
+    height: auto;
+  }
+  
+  .projects-title {
+    font-size: 32px;
+    color: #0b3d2e;
+    margin-bottom: 10px;
+  }
+  
+  .projects-subtitle {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 40px;
+  }
+  
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .project-card {
+    background-color: #f8f8f8;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.07);
+    transition: transform 0.3s ease;
+  }
+  
+  .project-card:hover {
+    transform: scale(1.03);
+  }
+  
+  .project-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .project-content {
+    padding: 20px;
+  }
+  
+  .project-content h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #0b3d2e;
+  }
+  
+  .project-content p {
+    font-size: 16px;
+    color: #666;
+  }
