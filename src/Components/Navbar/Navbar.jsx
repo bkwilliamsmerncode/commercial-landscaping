@@ -61,7 +61,7 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
-        <button className="cta-button">Sign Up</button>
+        <button className="cta-button">Free Quote</button>
         <div className="hamburger" onClick={toggleMenu}>
         <LuMenu />
         </div>

@@ -1,24 +1,27 @@
 import React from 'react';
 import './ProjectsContent.css';
+import job1 from '../../Assets/job1.JPG';
+import job2 from '../../Assets/job2.JPG';
+import job3 from '../../Assets/job3.JPG';
 
 const projectData = [
   {
     id: 1,
     title: 'Backyard Makeover',
     description: 'Complete transformation with sod installation, new flower beds, and decorative stones.',
-    image: 'https://via.placeholder.com/400x250?text=Backyard+Makeover',
+    image: job1,
   },
   {
     id: 2,
     title: 'Custom Patio & Firepit',
     description: 'Designed and built a stunning patio with integrated firepit for evening hangouts.',
-    image: 'https://via.placeholder.com/400x250?text=Patio+%26+Firepit',
+    image: job2,
   },
   {
     id: 3,
     title: 'Drought-Tolerant Landscape',
     description: 'Low-maintenance xeriscaping with native plants and rock beds.',
-    image: 'https://via.placeholder.com/400x250?text=Drought+Landscape',
+    image: job3,
   },
 ];
 
