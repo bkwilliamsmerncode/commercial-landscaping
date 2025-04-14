@@ -37,12 +37,12 @@
   
   .nav-item:hover,
   .nav-item.active {
-    color: #09bab5;
+    color: rgb(37, 94, 37);
     text-decoration: underline;
   }
   
   .cta-button {
-    background-color: #09bab5;
+    background-color: rgb(37, 94, 37);
     color: white;
     border: none;
     padding: 0.5rem 1rem;
@@ -52,7 +52,7 @@
   }
   
   .cta-button:hover {
-    background-color: #007f7a;
+    background-color: rgb(23, 58, 23);
   }
   
   /* Hamburger Menu Styles */
