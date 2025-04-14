@@ -24,7 +24,7 @@
 }
 
 .companyName {
-color: whitesmoke;
+color: white;
 font-size: 70px;
 font-weight: bold;
 }
@@ -36,7 +36,7 @@ font-weight: bold;
 }
 
 .formBtn {
-    background-color: #09bab5;
+    background-color: rgb(37, 94, 37);
     color: white;
     border: none;
     padding: 12px;
@@ -47,5 +47,5 @@ cursor: pointer;
 }
 
 .formBtn:hover {
-    background-color: #007f7a;
+    background-color: rgb(23, 59, 23);
 }

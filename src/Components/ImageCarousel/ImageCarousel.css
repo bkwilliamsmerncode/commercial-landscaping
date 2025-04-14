@@ -1,31 +1,37 @@
 .carousel {
     position: relative;
     width: 100%;
-    max-width: 800px;
+    max-width: 1000px;
     margin: 2rem auto;
     overflow: hidden;
-    border-radius: 20px;
-    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  }
+  
+  .carousel-track {
+    display: flex;
+    gap: 1rem;
+    transition: all 1.5s ease;
   }
   
   .carousel-image {
     width: 100%;
-    height: 400px;
+    height: 300px;
     object-fit: cover;
-    transition: opacity 0.5s ease-in-out;
+    flex: 1;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   }
   
   .nav-button {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(1, 1, 1, 0.5);
     color: white;
     border: none;
     padding: 1rem;
     font-size: 1.5rem;
     cursor: pointer;
-    z-index: 1;
+    z-index: 2;
   }
   
   .nav-button.left {
@@ -36,6 +42,12 @@
     right: 10px;
   }
   
-  .nav-button:hover {
-    background-color: rgba(0,0,0,0.7);
+  @media (max-width: 768px) {
+    .carousel-track {
+      gap: 0.5rem;
+    }
+  
+    .carousel-image {
+      height: 250px;
+    }
   }
