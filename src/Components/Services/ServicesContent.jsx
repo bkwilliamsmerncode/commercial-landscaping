@@ -1,6 +1,6 @@
 import React from 'react';
 import './ServicesContent.css';
-import { FaLeaf, FaTree, FaWater, FaSeedling } from 'react-icons/fa';
+import { FaLeaf, FaTree, FaLightbulb, FaSeedling } from 'react-icons/fa';
 
 const ServicesContent = () => {
   return (
@@ -19,10 +19,10 @@ const ServicesContent = () => {
           <p>Expert trimming to keep your trees strong, safe, and looking sharp year-round.</p>
         </div>
         <div className="service-card">
-          <FaWater className="service-icon" />
-          <h3>Irrigation Systems</h3>
-          <p>Smart irrigation solutions to help conserve water and keep your plants thriving.</p>
-        </div>
+  <FaLightbulb className="service-icon" />
+  <h3>Landscape Lighting</h3>
+  <p>Elegant outdoor lighting to enhance your yard’s beauty and improve nighttime safety.</p>
+</div>
         <div className="service-card">
           <FaSeedling className="service-icon" />
           <h3>Landscape Design</h3>
