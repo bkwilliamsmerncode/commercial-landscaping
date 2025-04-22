@@ -4,13 +4,19 @@ import './Navbar.css';
 import { LuMenu } from "react-icons/lu";
 import { IoClose } from "react-icons/io5";
 import logo from "../../Assets/logo.png"
+import Modal from '../Modal/Modal';
 
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [activePage, setActivePage] = useState(null);
   const [scrolled, setScrolled] = useState(false);
+  const [showModal, setShowModal] = useState(false);
   const navigate = useNavigate();
+
+  const handleModal = () => {
+    setShowModal(!showModal);
+  }
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -39,6 +45,7 @@ const Navbar = () => {
 
   return (
     <>
+{showModal && <Modal onClose={handleModal} />}
       <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
         <div className="logo">
           <img src={logo} alt="company logo" className='logo' />
@@ -61,7 +68,7 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
-        <button className="cta-button">Free Quote</button>
+        <button className="cta-button" onClick={handleModal}>Free Quote</button>
         <div className="hamburger" onClick={toggleMenu}>
         <LuMenu />
         </div>
@@ -89,7 +96,8 @@ const Navbar = () => {
                 </li>
               ))}
             </ul>
-            <button className="cta-button modal-button">Sign Up</button>
+            <button className="cta-button" onClick={handleModal}>Free Quote</button>
+            {showModal && <Modal onClose={() => setShowModal(false)} />}
           </div>
         </div>
       )}
