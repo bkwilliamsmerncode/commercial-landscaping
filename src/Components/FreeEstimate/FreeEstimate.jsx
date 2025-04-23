@@ -7,7 +7,7 @@ const FreeEstimate = () => {
       <div className="estimate-container">
         <h2 className="estimate-title">Get a Free Estimate</h2>
         <p className="estimate-subtitle">Let us bring your landscaping vision to life. Fill out the form and we’ll get back to you within 24 hours!</p>
-        
+
         <form className="estimate-form">
           <div className="estimate-group">
             <input type="text" name="name" placeholder="Your Name" required />
