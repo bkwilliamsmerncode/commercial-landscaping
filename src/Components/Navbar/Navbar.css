@@ -76,12 +76,13 @@
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #333;
+    background-color: white;
+    opacity: 0.8;
     color: white;
     transform: translateX(-100%);
     animation: slideIn 0.3s forwards;
     z-index: 100;
-    height: auto; /* Set height to auto */
+    height: 100vh; /* Set height to auto */
   }
   
   @keyframes slideIn {
@@ -97,6 +98,7 @@
     justify-content: center;
     align-items: center;
     position: relative;
+    margin-top: 10%;
   }
   
   .modal-links {

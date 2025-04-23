@@ -1,71 +1,84 @@
 .estimate-section {
-    padding: 80px 20px;
-    background: linear-gradient(to right, #0b3d2e, #09bab5);
-    color: white;
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
-  
-  .estimate-container {
-    max-width: 700px;
-    margin: 0 auto;
-  }
-  
-  .estimate-title {
-    font-size: 36px;
-    margin-bottom: 10px;
-  }
-  
-  .estimate-subtitle {
-    font-size: 18px;
-    margin-bottom: 40px;
-  }
-  
-  .estimate-form {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-  }
-  
+  padding: 80px 20px;
+  background-color: #f9f9f9;
+  color: #333;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.estimate-container {
+  max-width: 700px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 16px;
+  padding: 40px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.estimate-title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #0b3d2e;
+}
+
+.estimate-subtitle {
+  font-size: 18px;
+  margin-bottom: 40px;
+  color: #555;
+}
+
+.estimate-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.estimate-group {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media (min-width: 600px) {
   .estimate-group {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+    flex-direction: row;
   }
-  
-  @media (min-width: 600px) {
-    .estimate-group {
-      flex-direction: row;
-    }
-  }
-  
-  .estimate-form input,
-  .estimate-form textarea {
-    padding: 15px;
-    border: none;
-    border-radius: 10px;
-    font-size: 16px;
-    width: 100%;
-    outline: none;
-  }
-  
-  .estimate-form input::placeholder,
-  .estimate-form textarea::placeholder {
-    color: #888;
-  }
-  
-  .estimate-form button {
-    background-color: white;
-    color: #0b3d2e;
-    border: none;
-    padding: 15px;
-    border-radius: 10px;
-    font-size: 16px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .estimate-form button:hover {
-    background-color: #f0f0f0;
-  }
+}
+
+.estimate-form input,
+.estimate-form textarea {
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+  width: 100%;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.estimate-form input:focus,
+.estimate-form textarea:focus {
+  border-color: #09bab5;
+}
+
+.estimate-form input::placeholder,
+.estimate-form textarea::placeholder {
+  color: #aaa;
+}
+
+.estimate-form button {
+  background-color: #09bab5;
+  color: white;
+  border: none;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.estimate-form button:hover {
+  background-color: #0b3d2e;
+}
