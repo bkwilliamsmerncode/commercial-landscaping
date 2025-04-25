@@ -4,6 +4,7 @@ import HomeContent from '../Components/Home/HomeContent'
 import Footer from '../Components/Footer/Footer'
 import '../Components/Statement/Statement'
 import Statement from '../Components/Statement/Statement'
+import ChooseUs from '../Components/Choose Us/ChooseUs'
 
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
       <Navbar />
       <HomeContent /> 
       <Statement />
+      <ChooseUs />
       <Footer />
     </div>
   )
