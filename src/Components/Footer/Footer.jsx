@@ -15,9 +15,9 @@ const Footer = () => {
         {/* Middle Section */}
         <div className="footer-section">
           <h3>Contact Us</h3>
-          <p><FaMapMarkerAlt /> 123 Greenway Blvd, Tucson, AZ 85701</p>
-          <p><FaPhone /> (555) 123-4567</p>
-          <p><FaEnvelope /> info@forefrontlandscaping.com</p>
+          <p><FaMapMarkerAlt /> Tucson, AZ 85741</p>
+          <p><FaPhone /> (520) 800-6139</p>
+          <p><FaEnvelope /> forefrontlandscapingllc@gmail.com</p>
         </div>
 
         {/* Right Section */}

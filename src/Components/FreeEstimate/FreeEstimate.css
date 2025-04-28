@@ -11,7 +11,6 @@
   background: white;
   border-radius: 16px;
   padding: 40px;
-  /* box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); */
   text-align: center;
 }
 
@@ -31,7 +30,7 @@
 .estimate-form {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 20px; /* This gap spaces out ALL inputs, including subject */
 }
 
 .estimate-group {
