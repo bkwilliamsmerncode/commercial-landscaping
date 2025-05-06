@@ -7,11 +7,17 @@ const AboutContent = () => {
     <section className="about-us">
       <div className="about-container">
         <div className="about-text">
-          <h2>About ForeFront Landscaping</h2>
-          <p className="tagline">"Landscaping Done Right!"</p>
-          <p>
-            At ForeFront Landscaping, we don’t just cut grass — we craft outdoor experiences. With years of commercial and residential landscaping expertise, our mission is to transform ordinary spaces into lush, vibrant landscapes. Our dedicated team is passionate, professional, and always puts the customer first. Whether it’s lawn care, hardscaping, or full property makeovers, we bring your vision to life with precision and pride.
-          </p>
+        <h2>About ForeFront Landscaping</h2>
+<p className="tagline">"Landscaping Done Right!"</p>
+<p>
+  At ForeFront Landscaping, we do more than maintain yards — we elevate outdoor living. With deep roots in both residential and commercial landscaping, our team brings years of hands-on expertise and a passion for detail to every project.
+</p>
+<p>
+  Whether you're dreaming of a pristine lawn, a bold hardscape feature, or a complete property transformation, we're here to bring your vision to life. Our dedicated crew is committed to quality, professionalism, and making your outdoor space something you're proud of.
+</p>
+<p>
+  From the first cut to the final flourish, ForeFront Landscaping is where craftsmanship meets care.
+</p>
         </div>
         <div className="about-img">
           <img src={crew} alt="ForeFront Landscaping Team" />
