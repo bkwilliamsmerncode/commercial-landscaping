@@ -48,7 +48,7 @@ const Navbar = () => {
 {showModal && <Modal onClose={handleModal} />}
       <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
         <div className="logo">
-          <img src={logo} alt="company logo" className='logo' />
+          <img src={logo} alt="company logo" className='logo' onClick={() => navigate('/')}/>
         </div>
         <ul className="nav-links">
           {[
