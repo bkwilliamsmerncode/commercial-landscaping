@@ -47,7 +47,7 @@
   border-radius: 50%;
   margin-bottom: 15px;
   object-fit: cover;
-  border: 2px solid #09bab5;
+  border: 2px solid #7fad40;
 }
 
 .testimonial-text {
@@ -66,7 +66,7 @@
 
 .testimonial-service {
   font-size: 13px;
-  color: #09bab5;
+  color: #7fad40;
   font-style: italic;
   margin-top: 5px;
 }
