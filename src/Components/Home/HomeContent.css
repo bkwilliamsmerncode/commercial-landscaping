@@ -36,7 +36,7 @@ font-weight: bold;
 }
 
 .formBtn {
-    background-color: rgb(37, 94, 37);
+    background-color: #7fad40;
     color: white;
     border: none;
     padding: 12px;
@@ -47,5 +47,5 @@ cursor: pointer;
 }
 
 .formBtn:hover {
-    background-color: rgb(23, 59, 23);
+    background-color: #55742b;
 }

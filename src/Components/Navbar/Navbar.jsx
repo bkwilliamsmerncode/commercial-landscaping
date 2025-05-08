@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import './Navbar.css';
 import { LuMenu } from "react-icons/lu";
 import { IoClose } from "react-icons/io5";
-import logo from "../../Assets/logo.png"
+import logo from "../../Assets/fflogo.png"
 import Modal from '../Modal/Modal';
 
 
