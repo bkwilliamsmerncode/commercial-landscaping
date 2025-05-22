@@ -68,3 +68,38 @@
     font-size: 14px;
     color: #b2dfdb;
   }
+
+ 
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+  }
+  
+  .footer-section h3, .footer-logo {
+    margin-bottom: 10px;
+  }
+  
+  .footer-slogan {
+    font-style: italic;
+  }
+  
+  .social-icons a {
+    margin-right: 15px;
+    font-size: 1.5rem;
+    color: #1e1e1e; /* dark color for contrast */
+    transition: color 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    color: #09bab5; /* accent color on hover */
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.9rem;
+    color: #444;
+  }
