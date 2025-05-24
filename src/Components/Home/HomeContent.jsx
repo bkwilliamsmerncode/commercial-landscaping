@@ -18,7 +18,7 @@ const handleModal = () => {
         <div className='hero'>
 <div className="heroText">
   <div className="companyName">FourFront Landscaping</div>
-  <div className="companySlogan">Landscaping Done Right!</div>
+  <div className="companySlogan">Bringing Your Landscaping Ideas To Life</div>
   <button className='formBtn'  onClick={handleModal}>Get A Free Estimate</button>
 </div>
         </div>
