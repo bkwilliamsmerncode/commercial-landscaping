@@ -21,14 +21,14 @@ const projectData = [
     services: ['Landscape Design', 'Gravel', 'Planting', 'Xeriscaping'],
     image: job2,
   },
-  {
-    id: 3,
-    title: 'Palm Tree Trimming & Irrigation Repair',
-    description:
-      'Trimmed palm trees up to 20ft, repaired broken irrigation lines, and revitalized the garden with new bushes and mulch.',
-    services: ['Palm Tree Trimming', 'Irrigation Repair', 'Bush Trimming'],
-    image: job3,
-  },
+{
+  id: 3,
+  title: 'Fallen Tree Clean-Up & Yard Restoration',
+  description:
+    'Removed a large fallen tree from a storm, cleared debris, and restored the yard with fresh gravel and trimmed bushes.',
+  services: ['Fallen Tree Clean-Up', 'Gravel Installation', 'Bush Trimming'],
+  image: job3, // Replace this with the appropriate image file, e.g. `job4` if you're tracking separately
+}
 ];
 
 const ProjectsContent = () => {

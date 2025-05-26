@@ -12,7 +12,10 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    background-color: rgba(128, 128, 128, 0.386);
 }
+
+
 
 .heroText {
     width: 100%;
@@ -21,6 +24,8 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+      -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
 }
 
 .companyName {

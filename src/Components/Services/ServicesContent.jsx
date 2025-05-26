@@ -17,6 +17,7 @@ const services = [
   { icon: <FaBroom />, title: "Gravel Installation", description: "Expert gravel spreading for clean, durable landscapes." },
   { icon: <FaSeedling />, title: "Landscape Design", description: "Custom designs to transform your outdoor space." },
   { icon: <FaTree />, title: "Palm Tree Trimming (up to 20 feet)", description: "Safe and skilled trimming of palm trees up to 20 feet." },
+  { icon: <FaTree />, title: "Fallen Tree Clean Up", description: "Fast and safe removal of fallen trees to restore your property's appearance and safety." },
 ];
 
 const ServicesContent = () => {
