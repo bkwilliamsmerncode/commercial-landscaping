@@ -30,6 +30,20 @@ const testimonials = [
     service: 'Tree Trimming & Gravel',
     image: 'https://i.pravatar.cc/150?img=47',
   },
+  {
+    id: 5,
+    name: 'Brandon C.',
+    feedback: 'We needed a complete redesign for our rental property’s front yard. The crew was efficient, friendly, and the results were stunning!',
+    service: 'Front Yard Redesign',
+    image: 'https://i.pravatar.cc/150?img=56',
+  },
+  {
+    id: 6,
+    name: 'Elena G.',
+    feedback: 'From the first consultation to the final walk-through, ForeFront was top-notch. The paver patio they installed is now the highlight of our home.',
+    service: 'Custom Hardscaping',
+    image: 'https://i.pravatar.cc/150?img=65',
+  },
 ];
 
 const TestimonialsContent = () => {

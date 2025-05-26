@@ -9,7 +9,7 @@ const Footer = () => {
         {/* Left Section */}
         <div className="footer-section">
           <h2 className="footer-logo">ForeFront Landscaping</h2>
-          <p className="footer-slogan">"Landscaping Done Right!"</p>
+          <p className="footer-slogan">"Bringing Your Landscaping Ideas To Life"</p>
         </div>
 
         {/* Middle Section */}
