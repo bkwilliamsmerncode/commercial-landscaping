@@ -20,7 +20,7 @@ const handleModal = () => {
         
 
 <div className="heroText">
-  <div className="companyName">FourFront Landscaping</div>
+  <div className="companyName">ForeFront Landscaping</div>
   <div className="companySlogan">Bringing Your Landscaping Ideas To Life</div>
   <button className='formBtn'  onClick={handleModal}    style={{
     WebkitTextStrokeWidth: '0px',
