@@ -5,29 +5,65 @@
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
+    
+    <title>Forefront Landscaping | Tucson, AZ</title>
+    <meta name="description" content="Tucson's trusted landscaping company. Lawn care, hardscaping, irrigation systems, yard cleanups and more. Call today for a free quote!" />
+    <meta name="keywords" content="landscaping, Tucson landscaping, lawn care, hardscaping, irrigation, Forefront Landscaping, yard cleanup" />
+    <meta name="author" content="Forefront Landscaping" />
+  
+    <!-- Open Graph for Social -->
+    <meta property="og:title" content="Forefront Landscaping | Tucson, AZ" />
+    <meta property="og:description" content="We offer professional landscaping services in Tucson. Licensed, insured and affordable." />
+    <meta property="og:url" content="https://www.forefrontlandscaping.com/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://www.forefrontlandscaping.com/images/og-image.jpg" />
+  
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>ForeFront Landscaping LLC</title>
+  
+    <!-- Local Business Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Forefront Landscaping",
+      "image": "https://www.forefrontlandscaping.com/images/logo.png",
+      "@id": "https://www.forefrontlandscaping.com",
+      "url": "https://www.forefrontlandscaping.com",
+      "telephone": "(520) 800-6139",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "11560 E. Old Vail Rd.",
+        "addressLocality": "Tucson",
+        "addressRegion": "AZ",
+        "postalCode": "85747",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 32.2226,
+        "longitude": -110.9747
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"
+        ],
+        "opens": "08:00",
+        "closes": "18:00"
+      },
+      "sameAs": [
+        "https://www.facebook.com/people/ForeFront-Landscaping-LLC/61576638599840/",
+        "https://www.instagram.com/forefront_landscaping_llc/"
+      ],
+      "description": "Professional landscaping services in Tucson AZ."
+    }
+    </script>
   </head>
+  
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+
+      
     <div id="root"></div>
     <!--
       This HTML file is a template.

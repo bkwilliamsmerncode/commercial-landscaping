@@ -1,9 +1,16 @@
 import React from "react";
 import "./AboutContent.css";
 import crew from '../../Assets/crew.jpg'; 
+import { Helmet } from "react-helmet-async";
 
 const AboutContent = () => {
   return (
+    <>
+     <Helmet>
+        <title>About Forefront Landscaping | Tucson</title>
+        <meta name="description" content="Learn more about Forefront Landscaping, Tucson's professional landscaping company with years of experience and a passion for quality." />
+        <meta name="keywords" content="Forefront Landscaping, about landscaping company, Tucson landscaping professionals" />
+      </Helmet>
     <section className="about-us">
       <div className="about-container">
         <div className="about-text">
@@ -24,6 +31,7 @@ const AboutContent = () => {
         </div>
       </div>
     </section>
+    </>
   );
 };
 

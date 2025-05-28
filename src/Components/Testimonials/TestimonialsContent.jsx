@@ -1,5 +1,6 @@
 import React from 'react';
 import './TestimonialsContent.css';
+import { Helmet } from "react-helmet-async";
 
 const testimonials = [
   {
@@ -48,6 +49,12 @@ const testimonials = [
 
 const TestimonialsContent = () => {
   return (
+    <>
+     <Helmet>
+        <title>Customer Testimonials | Forefront Landscaping Tucson</title>
+        <meta name="description" content="Read reviews and testimonials from our happy customers about Forefront Landscaping in Tucson." />
+        <meta name="keywords" content="landscaping reviews, customer testimonials Tucson, Forefront Landscaping reviews" />
+      </Helmet>
     <section className="testimonials">
       <h2 className="testimonials-title">What Our Clients Say</h2>
       <p className="testimonials-subtitle">Real feedback from homeowners and businesses we've helped transform.</p>
@@ -62,6 +69,7 @@ const TestimonialsContent = () => {
         ))}
       </div>
     </section>
+    </>
   );
 };
 
