@@ -1,6 +1,7 @@
 import React from 'react';
 import './ServicesContent.css';
 import { FaTruckLoading, FaBroom, FaLeaf, FaTree, FaTint, FaCogs, FaSeedling, FaWater } from 'react-icons/fa';
+import { Helmet } from "react-helmet-async";
 
 const services = [
   { icon: <FaTruckLoading />, title: "Junk Hauling", description: "Quick and efficient junk removal to clear your space." },
@@ -22,6 +23,12 @@ const services = [
 
 const ServicesContent = () => {
   return (
+    <>
+     <Helmet>
+        <title>Landscaping Services in Tucson | Forefront Landscaping</title>
+        <meta name="description" content="Explore our expert landscaping services including lawn care, irrigation, hardscaping, and yard maintenance in Tucson, AZ." />
+        <meta name="keywords" content="landscaping services Tucson, lawn care, irrigation systems, hardscaping, yard maintenance" />
+      </Helmet>
     <section className="services">
       <h2 className="services-title">Our Services</h2>
       <p className="services-subtitle">Quality landscaping, maintenance, and hauling solutions for your home or business.</p>
@@ -35,6 +42,7 @@ const ServicesContent = () => {
         ))}
       </div>
     </section>
+    </>
   );
 };
 

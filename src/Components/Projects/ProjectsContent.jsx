@@ -3,6 +3,7 @@ import './ProjectsContent.css';
 import job1 from '../../Assets/job1.JPG';
 import job2 from '../../Assets/job2.JPG';
 import job3 from '../../Assets/job3.JPG';
+import { Helmet } from "react-helmet-async";
 
 const projectData = [
   {
@@ -33,6 +34,12 @@ const projectData = [
 
 const ProjectsContent = () => {
   return (
+    <>
+     <Helmet>
+        <title>Customer Testimonials | Forefront Landscaping Tucson</title>
+        <meta name="description" content="Read reviews and testimonials from our happy customers about Forefront Landscaping in Tucson." />
+        <meta name="keywords" content="landscaping reviews, customer testimonials Tucson, Forefront Landscaping reviews" />
+      </Helmet>
 <section className="projects">
   <h2 className="projects-title">Our Projects</h2>
   <p className="projects-subtitle">
@@ -55,6 +62,7 @@ const ProjectsContent = () => {
     ))}
   </div>
 </section>
+</>
   );
 };
 
