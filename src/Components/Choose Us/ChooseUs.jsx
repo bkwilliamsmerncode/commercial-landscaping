@@ -22,7 +22,7 @@ const ChooseUs = () => {
 
   return (
     <section className="why-choose-us">
-      <h2>Why Choose Forefront Landscaping?</h2>
+      <h2>Why Choose Forefront Landscaping???</h2>
       <div className="reasons">
         {reasons.map((reason, index) => (
           <div className="reason" key={index}>
